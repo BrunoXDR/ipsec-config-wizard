@@ -52,6 +52,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				network: {
+					primary: 'hsl(var(--network-primary))',
+					secondary: 'hsl(var(--network-secondary))'
+				},
+				security: {
+					warning: 'hsl(var(--security-warning))',
+					success: 'hsl(var(--security-success))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
