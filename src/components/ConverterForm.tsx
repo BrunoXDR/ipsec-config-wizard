@@ -122,7 +122,7 @@ export const ConverterForm = () => {
       formDataToSend.append('convert_proxy_id', formData.convertProxyId.toString());
       formDataToSend.append('convert_tunnel_monitor', formData.convertTunnelMonitor.toString());
 
-      const response = await fetch('/process-config', {
+      const response = await fetch('/functions/v1/process-config', {
         method: 'POST',
         body: formDataToSend,
       });
